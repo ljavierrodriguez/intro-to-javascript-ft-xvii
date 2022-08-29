@@ -100,3 +100,8 @@ switch (option) {
         console.log("Opcion No Valida")
         break;
 }
+
+let resultado = a > b ? true : false;
+
+
+let resultado2 = a > b && a > c ? "Mayor es A" : b > c ? "Mayor es B": "Mayor es C";
